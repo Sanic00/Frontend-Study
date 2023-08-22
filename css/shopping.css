@@ -1,0 +1,145 @@
+body, p, a {
+    margin: 0px;
+}
+
+p,h4,h3,h2,h1,span {
+    transform: rotate(0.03deg);
+}
+
+body {
+    font-family: '이쁜폰트', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: '이쁜폰트';
+    /* src : url(../font/NanumSquare-master/NanumSquareAcEB.ttf) */
+    src : url(../font/NanumSquare-master/NanumSquareAcEB.woff)
+}
+
+@font-face {
+    font-family: '이쁜폰트굵기';
+    /* src : url(../font/NanumSquare-master/NanumSquareAcEB.ttf) */
+    font-weight: 800;
+    src : url(../font/NanumSquare-master/NanumSquareAcEB.woff2)
+}
+
+.cart-background {
+    width: 100%;
+    background-color: #c2d3de;
+    padding: 30px;
+}
+
+.cart-table {
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+td, th {
+    /* border: 1px solid black; */
+}
+
+.cart-table td, .cart-table th {
+    padding: 20px;
+    border-bottom: 2px solid #c2d3de;
+}
+
+.cell-long {
+    width: 400px; /*td에게는 최대한 이만큼 차지해보세요~ 라는 뜻임 얘는 동시에 적용됨*/
+}
+
+/* 2번째 나오는 애들 */
+.cart-table th:nth-child(2) {
+    width: 400px;
+}
+
+.cart-button {
+    margin-top: 15px;
+    margin: auto;
+}
+
+.btn {
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 15px;
+    color :white ;
+    background-color : coral;
+    cursor: pointer;
+}
+
+/* 이런문법을 pseudo-class 라고 불름 */
+.btn:hover {
+  background-color : chocolate;
+}
+
+/* 커서가 찍혀있을때 스타일 */
+.btn:focus {
+    background-color: grey
+}
+
+/* 버튼을 클릭할때 브라운 색상으로 바뀜  */
+.btn:active {
+  background-color: brown;
+  border: 2px solid black;
+}
+
+.intput-test {
+    font-size:20px;
+}
+
+.intput-test:hover {
+    background-color: antiquewhite;
+} 
+
+.intput-test:focus {
+    border: 2px solaid red;
+}
+
+.intput-test:active {
+    background-color: brown;
+    border: 2px solid black;
+} 
+
+.custom-link {
+    /* link 밑줄 제거 */
+    text-decoration: none;
+}
+
+.custom-link:link {
+    color:red;
+}
+
+.custom-link:visited {
+    color:violet;
+}
+
+.main-btn {
+    padding: 15px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.bg-red {
+    background: red;
+}
+
+.bg-blue {
+    background: blue;
+}
+
+.f-small {
+    font-size : 12px;
+}
+
+.f-mid {
+    font-size : 16px;
+}
+
+.f-lg {
+    font-size : 20px
+}

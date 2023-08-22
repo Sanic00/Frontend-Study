@@ -1,0 +1,24 @@
+p {
+ margin:0px;
+ font-size: 15px;
+}
+
+body {
+    margin: 0px;
+}
+
+.first-name {
+    float: left;
+    margin-right: 50px;
+}
+.last-name {
+    float: left;
+}
+
+.message {
+    clear: both;
+}
+.message-box {
+    width: 600px;
+    height: 300px;
+}

@@ -1,0 +1,38 @@
+.container {
+    width: 1000px;
+}
+
+.left {
+    width: 70%;
+    height: 500px;
+   
+    float: left;
+}
+
+.right {
+    width: 30%;
+    height: 500px;
+    background-color: yellow;
+    float: left;
+}
+
+.tittle {
+    height: 100px;
+    background-color: green;
+
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  float : left;
+}
+
+.name {
+    float : left;
+}
+
+.content {
+    height: 100px;
+    background-color: violet;
+}

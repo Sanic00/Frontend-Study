@@ -1,0 +1,101 @@
+body, p {
+    margin: 0px;
+    width: 100%;
+}
+
+img {
+    margin:0px;
+    padding:0px;
+}
+
+.container {
+    width: 100%;
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(to bottom, #4a91d9, #4c70c8);
+}
+
+.main-content {
+    width: 50%;
+    color: #eeeeee;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.main-image {
+    width: 50%;
+}
+
+.main-image > img {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 50px;
+    block-size: 500px;
+}
+
+button {
+    margin-top: 20px;
+    background-color: #444445;
+    color: #eeeeee;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.content{
+    margin: 100px;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.icon {
+    background-color: #4e61c0;
+    text-align: center;
+}
+
+.icon-content {
+    padding-top: 50px;
+}
+
+.icon-box {
+    display: flex;
+    margin-top: 50px;
+    padding-bottom: 100px;
+    justify-content: center; 
+}
+ 
+.icon-box div {
+    margin-right: 50px;
+}
+
+.icon-box-real {
+    width: 80px;
+    height: 80px;
+    background-color: #eeeeee;
+    border-radius: 100px;
+}
+
+.portfolio {
+    text-align: center;
+}
+
+.portfolio-content {
+    margin-top: 50px;
+}
+
+
+@media screen and (max-width: 576px ){
+    .icon {
+        display: flex;
+    }
+
+    .icon-box{
+        flex-wrap: wrap;
+    }
+}

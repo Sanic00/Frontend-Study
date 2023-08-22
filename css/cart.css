@@ -1,0 +1,19 @@
+body {
+    margin: 0px;
+}
+
+a, p {
+    margin: 0px;
+}
+
+td, th {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+span {
+    vertical-align: middle;
+}
