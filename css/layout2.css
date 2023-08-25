@@ -190,6 +190,11 @@ img {
     text-align: center;
 }
 
+.pesudo::firest-letter {
+    color : red;
+    font-size:30px;
+}
+
 @media screen and (max-width: 1200px){
     .product-container {
        width: 50%;
