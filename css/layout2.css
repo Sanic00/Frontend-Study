@@ -190,9 +190,13 @@ img {
     text-align: center;
 }
 
-.pesudo::firest-letter {
+.pesudo::first-letter {
     color : red;
     font-size:30px;
+}
+.pesudo::first-line {
+    color:aqua;
+    font-size: 50px;
 }
 
 @media screen and (max-width: 1200px){
