@@ -244,6 +244,47 @@ input[type=range]::-webkit-slider-thumb {
     height: 50px;
 }
 
+progress {
+    opacity: 0;
+  }
+
+  .progress-container {
+    position: relative;
+    display: inline-block;
+    background: #eee;
+    height: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+
+  .progress-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: turquoise;
+    width: 0;
+    animation: progress-animation .7s ease-in forwards;
+  }
+
+  .progress-label {
+    position: relative;
+  }
+
+  .progress-label::after {
+    content: "75%";
+    position: absolute;
+    top:0;
+    right: 0;
+  }
+
+  @keyframes progress-animation {
+    to {
+      width: 75%;
+    }
+  }
+
 @media screen and (max-width: 1200px){
     .product-container {
        width: 50%;
