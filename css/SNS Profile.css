@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    background-color:  #f7f9fc;
+    font-family: 'Nanum' url(../font/NanumSquare-master/NanumSquareAcB.woff2);
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 5px;
+}
+
+span {
+    margin-left : 30px;
+}
+
+.btn {
+    background: #6fbaf8;
+    border-radius: 5px ;
+    border: none;
+    padding : 10px 25px 10px 25px;
+    color: white;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+.userinfo {
+    display: flex;
+    border-bottom: 0.5px solid grey;
+    border-right:  0.5px solid grey;
+    justify-content: center;
+    padding : 20px;
+    margin:50px;
+    box-shadow: 5px 5px 10px rgba(87, 86, 86, 0.3);
+}
+
+.userinfo-1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.userinfo-2 {
+    margin: 30px;
+    margin-right:300px;
+}
+
+.userinfo-2 h {
+    
+}
+
+
+.userinfo-3 {
+    display: flex;
+    
+}
+
+.userinfo-3 p {
+    margin: 1px;
+    padding: auto;
+}
+.info-1{
+    border-left: 0.1px solid gray;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.info-2 {
+    
+}
+
+
+
