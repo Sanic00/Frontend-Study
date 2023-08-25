@@ -221,6 +221,29 @@ img {
     color: violet;
 }
 
+input[type=file]::-webkit-file-upload-button {
+    background-color: brown;
+    border: none;
+    padding: 30px;
+
+}
+
+.holder::-webkit-input-placeholder {
+    color: red;
+    border: none;
+}
+
+input[type=range] {
+    appearance: none;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    appearance: none;
+    background: red;
+    width: 50px;
+    height: 50px;
+}
+
 @media screen and (max-width: 1200px){
     .product-container {
        width: 50%;
