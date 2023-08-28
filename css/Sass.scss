@@ -11,3 +11,13 @@ $main-size : 16px;
     color : $subcolor;
     font-size: ($main-size + 2px);
 }
+
+/*Nesting 문법*/
+.navbar { 
+    ul {
+      width : 100%;
+    }
+    li {
+      color : black;
+    }
+  }
