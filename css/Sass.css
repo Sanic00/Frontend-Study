@@ -36,4 +36,21 @@
   height: 50px;
   padding: 20px;
   color: blue;
+}
+
+.box-green, .box-blue, .box-red {
+  width: 30%;
+  height: 200px;
+}
+
+.box-red {
+  background-color: red;
+}
+
+.box-blue {
+  background-color: blue;
+}
+
+.box-green {
+  background-color: green;
 }/*# sourceMappingURL=Sass.css.map */

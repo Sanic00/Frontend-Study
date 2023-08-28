@@ -49,3 +49,25 @@ $main-size : 16px;
     color: blue;
 } 
 
+
+
+%box {
+    width: 30%;
+    height: 200px;
+}
+
+.box-red{
+  @extend %box;
+  color: red;
+}
+
+.box-blue{
+    @extend %box;
+    color: blue;
+  }
+
+  .box-green{
+    @extend %box;
+    color: green;
+  }
+
