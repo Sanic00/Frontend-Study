@@ -1,0 +1,19 @@
+@mixin act () {
+    background-color: blue;
+    color: white;
+}
+
+li {
+    width: 50%;
+    height: 100px;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid gray;
+    
+}
+
+li:hover {
+    @include act();
+}
