@@ -21,3 +21,30 @@ $main-size : 16px;
       color : black;
     }
   }
+
+// 빨간,파란,초록버튼이 필요하다.
+//%임시클래스명
+%btn {
+    width: 100px;
+    height: 50px;
+    padding: 20px;
+}
+
+.btn-green {
+    // class 전체를 복사해주는 @extend문법
+    @extend %btn;
+    color: green;
+} 
+
+.btn-red {
+    @extend %btn;
+    color: red;
+} 
+
+.btn-blue {
+    width: 100px;
+    height: 50px;
+    padding: 20px;
+    color: blue;
+} 
+
