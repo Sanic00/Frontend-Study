@@ -1,0 +1,40 @@
+body {
+    margin: 0px;
+}
+
+@mixin box1($backcolor, $font-color) {
+    width: 600px;
+    height: 50px;
+    margin: 10px;
+    padding : 10px;
+    background-color: $backcolor;
+    color : $font-color;
+    border-radius: 5px;
+    border: none;
+}
+
+p ::before {
+    color : black;
+}
+
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.green {
+    @include box1(green,grey);
+
+}
+
+.blue {
+    @include box1(skyblue,grey);
+}
+
+.yellow {
+    @include box1(yellow,grey);
+}
