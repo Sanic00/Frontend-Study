@@ -49,8 +49,6 @@ $main-size : 16px;
     color: blue;
 } 
 
-
-
 %box {
     width: 30%;
     height: 200px;
@@ -71,3 +69,19 @@ $main-size : 16px;
     color: green;
   }
 
+@mixin font-style($구멍, $글자간격){
+    font-size: $구멍;
+    letter-spacing: $글자간격;
+}
+
+h2 {
+   @include font-style(30px, -1px)
+}
+
+h3 {
+    @include font-style(20px, -10px)
+}
+
+h4 {
+    @include font-style(10px, -20px)
+}
