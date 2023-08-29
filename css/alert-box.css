@@ -20,9 +20,10 @@ p ::before {
   margin: 10px;
   padding: 10px;
   background-color: green;
-  color: grey;
+  color: black;
   border-radius: 5px;
   border: none;
+  opacity: 50%;
 }
 
 .blue {
@@ -31,9 +32,10 @@ p ::before {
   margin: 10px;
   padding: 10px;
   background-color: skyblue;
-  color: grey;
+  color: black;
   border-radius: 5px;
   border: none;
+  opacity: 50%;
 }
 
 .yellow {
@@ -42,7 +44,8 @@ p ::before {
   margin: 10px;
   padding: 10px;
   background-color: yellow;
-  color: grey;
+  color: black;
   border-radius: 5px;
   border: none;
+  opacity: 50%;
 }/*# sourceMappingURL=alert-box.css.map */

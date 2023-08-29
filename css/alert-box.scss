@@ -11,6 +11,7 @@ body {
     color : $font-color;
     border-radius: 5px;
     border: none;
+    opacity: 50%;
 }
 
 p ::before {
@@ -27,14 +28,14 @@ p ::before {
 }
 
 .green {
-    @include box1(green,grey);
+    @include box1(green,black);
 
 }
 
 .blue {
-    @include box1(skyblue,grey);
+    @include box1(skyblue,black);
 }
 
 .yellow {
-    @include box1(yellow,grey);
+    @include box1(yellow,black);
 }

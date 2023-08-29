@@ -1,0 +1,28 @@
+body , div {
+    margin: 0px;
+}
+
+@mixin width50($width) {
+ width: $width;
+ padding : 10px;
+ border: 1px solid black;
+ background-color: aqua;
+}
+
+.container {
+   width: 100%;
+}
+
+
+
+.col-6 {
+    @include width50(50%)
+}
+
+.col-4 {
+    @include width50(33%)
+}
+
+.col-3 {
+    @include width50(25%)
+}

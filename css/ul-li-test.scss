@@ -17,3 +17,18 @@ li {
 li:hover {
     @include act();
 }
+
+// solution
+.sh-list li {
+    list-style: none;
+    padding: 15px;
+    border: 1px solid #eee;
+}
+//nesting grammer
+.sh-list {
+    li {
+        list-style: none;
+        padding: 15px;
+        border: 1px solid #eee; 
+    }
+}
