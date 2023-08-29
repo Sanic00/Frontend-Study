@@ -1,0 +1,30 @@
+
+.ani-text {
+    text-align: center;
+
+}
+
+.ani-text:hover {
+    animation-name: comeback;
+    animation-duration: 1s;
+}
+
+//복잡한 애니메이션 정의는 
+@keyframes comeback {
+    //애니메이션이 0퍼센트 진행
+    0%{
+        transform: translateX(0px);
+    }
+ //애니메이션이 50퍼센트 진행
+    50%{
+        transform: translateX(-300px);
+    }
+    75%{
+        transform: translateX(300px);
+    }
+ //애니메이션이 100퍼센트 진행
+    100%{
+        transform: translateX(0px);
+    }
+
+}

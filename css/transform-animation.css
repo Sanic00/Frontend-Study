@@ -1,0 +1,23 @@
+.ani-text {
+  text-align: center;
+}
+
+.ani-text:hover {
+  animation-name: comeback;
+  animation-duration: 1s;
+}
+
+@keyframes comeback {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(-300px);
+  }
+  75% {
+    transform: translateX(300px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}/*# sourceMappingURL=transform-animation.css.map */
