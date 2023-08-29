@@ -20,9 +20,38 @@ body , div {
 }
 
 .col-4 {
-    @include width50(33%)
+    @include width50(100% / 3)
 }
 
 .col-3 {
     @include width50(25%)
+}
+
+//Solution
+
+div{
+    box-sizing: border-box;
+}
+
+@mixin colum($width1){
+    float: left;
+    width :$width1;
+    padding: 15px;
+}
+.row {
+    .col-6{
+      @include name(50%);
+    }
+}
+
+.row {
+    .col-4{
+        @include name(33%);
+    }
+}
+
+.row {
+    .col-3{
+        @include name(100% / 4);
+    }
 }
