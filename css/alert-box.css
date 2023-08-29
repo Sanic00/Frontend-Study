@@ -48,4 +48,23 @@ p ::before {
   border-radius: 5px;
   border: none;
   opacity: 50%;
+}
+
+.alert-box-blue, .alert-box-yellow, .alert-box-green {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #eee;
+  color: white;
+}
+
+.alert-box-green {
+  background-color: green;
+}
+
+.alert-box-yellow {
+  background-color: orange;
+}
+
+.alert-box-blue {
+  background-color: skyblue;
 }/*# sourceMappingURL=alert-box.css.map */

@@ -19,16 +19,20 @@ li:hover {
 }
 
 // solution
-.sh-list li {
-    list-style: none;
-    padding: 15px;
-    border: 1px solid #eee;
-}
+// .sh-list li {
+//     list-style: none;
+//     padding: 15px;
+//     border: 1px solid #eee;
+// }
 //nesting grammer
 .sh-list {
     li {
         list-style: none;
         padding: 15px;
         border: 1px solid #eee; 
+    }
+    .active:hover {
+        background: skyblue;
+        color: white;
     }
 }

@@ -39,3 +39,28 @@ p ::before {
 .yellow {
     @include box1(yellow,black);
 }
+
+// Solution
+%alert-box {
+    padding: 10px;
+    border-radius: 5px;
+    border : 1px solid #eee;
+    color: white;
+}
+
+.alert-box-green {
+    @extend %alert-box;
+    background-color: green;
+
+}
+
+.alert-box-yellow {
+    @extend %alert-box;
+    background-color: orange;
+}
+
+.alert-box-blue {
+    @extend %alert-box;
+    background-color: skyblue;
+
+}

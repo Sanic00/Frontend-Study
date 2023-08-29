@@ -18,9 +18,7 @@ li:hover {
   padding: 15px;
   border: 1px solid #eee;
 }
-
-.sh-list li {
-  list-style: none;
-  padding: 15px;
-  border: 1px solid #eee;
+.sh-list .active:hover {
+  background: skyblue;
+  color: white;
 }/*# sourceMappingURL=ul-li-test.css.map */
