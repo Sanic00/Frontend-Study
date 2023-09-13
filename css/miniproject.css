@@ -44,7 +44,7 @@ span {
    margin-left: auto; 
     margin-right: auto;
     text-align: center;
-    font-size:10px;
+    font-size:10px; /*일부스타일은 inherit가 존재 그러기떄문에 부모에게 스타일을 줘도 자식태그에 스타일이 상속된다.*/
     color: white;
     font-family: sans-serif;
     box-shadow: 5px 5px 10px black
