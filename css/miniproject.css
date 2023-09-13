@@ -32,8 +32,16 @@ span {
     padding: 40px;
     /*border: 4px dotted black;*/
     border-radius: 15px;
-   /* display : block; 박스는 display block속성을 기본적으로 가지고 있기에 생략가능*/
+   /* display : block; <div>박스는 display block속성을 기본적으로 가지고 있기에 생략가능*/
+   
+   /* 
+   div박스 가운데 정렬
+    display : block; -> <div>, <p>, <h> 디스플레이 블록은 가로행을 전부차지해주세요라는 뜻임
     margin-left: auto; 
+    margin-right: auto;
+    */
+
+   margin-left: auto; 
     margin-right: auto;
     text-align: center;
     font-size:10px;
