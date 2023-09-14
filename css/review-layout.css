@@ -1,0 +1,29 @@
+.container {
+ width: 800px;   /*최대 width같은걸 미리 지정할떄 좋음*/
+ 
+}
+
+.header {
+    width: 100%;  /*부모 태그 width의 100%사용하겠다.*/
+    height: 50px;
+    background-color: aquamarine;
+}
+
+.left-menu {
+    width: 20%; /*부모 태그 800px에서의 width의 30%사용하겠다.*/
+    height: 400px;
+    background-color: cornflowerblue;
+}
+/* <div> 태그는 display : block를 내장하고 있음 그 뜻은 가로행을 전부 차지한다는뜻*/
+.right-menu {
+    width: 80%;
+    height: 400px;
+    background-color: coral;
+}
+
+.footer {
+    width: 100%;
+    height: 50px;
+    background-color: yellowgreen;
+    
+}
