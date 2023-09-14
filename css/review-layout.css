@@ -13,17 +13,20 @@
     width: 20%; /*부모 태그 800px에서의 width의 30%사용하겠다.*/
     height: 400px;
     background-color: cornflowerblue;
+    float: left;
 }
 /* <div> 태그는 display : block를 내장하고 있음 그 뜻은 가로행을 전부 차지한다는뜻*/
 .right-menu {
     width: 80%;
     height: 400px;
     background-color: coral;
+    float: left;
 }
 
 .footer {
     width: 100%;
     height: 50px;
     background-color: yellowgreen;
+    clear: both;
     
 }
