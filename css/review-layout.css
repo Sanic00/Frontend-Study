@@ -20,6 +20,7 @@
 /* <div> 태그는 display : block를 내장하고 있음 그 뜻은 가로행을 전부 차지한다는뜻*/
 /* display : inline-block은 내 박스크기만큼만 차지하게 해주세요라는 뜻 */
 /* display : inline-block <div>여기에 공백이 있으면 안됨(불편)<div> */
+/* vertical-align요소는 inline 요소가 적용되야지만 사용가능 */
 .right-menu {
     width: 80%;
     height: 400px;
