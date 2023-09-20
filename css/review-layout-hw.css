@@ -50,3 +50,15 @@
     font-size: 15px;
     color: gray;
 }
+
+/* selector 문법 중 공백 : ~안에 있는 모든 자식태그 이라는 뜻 */
+/* selector 문법 >  ~안에 있는 직계 자식태그 */
+.navbar li {
+    display: inline-block;
+}
+
+.navbar a{
+    font-size: 16px;
+    text-decoration: none; /*a태그의 밑줄제거 가능*/
+    
+}
