@@ -53,12 +53,31 @@
 
 /* selector 문법 중 공백 : ~안에 있는 모든 자식태그 이라는 뜻 */
 /* selector 문법 >  ~안에 있는 직계 자식태그 */
+.navbar {
+    text-align: center;
+}
+
+.navbar > img {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    
+}
+
 .navbar li {
     display: inline-block;
+    text-align: center;
+    width: 60px;
+    background: #eee;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: auto;
+    
 }
 
 .navbar a{
-    font-size: 16px;
+    font-size: 13px;
     text-decoration: none; /*a태그의 밑줄제거 가능*/
-    
+
 }
