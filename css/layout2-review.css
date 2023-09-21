@@ -1,0 +1,18 @@
+body {
+    margin: 0px;
+}
+
+
+.main-background {
+    width : 100%;
+    height: 500px;
+    /* 배경이미지는 꽉차지 않으면 반복이 default임  */
+    background-image: url(../img/shoes.jpg);
+    background-size: cover; /*cover 너가 알아서 배경을 꽉 채워라 명령 contain 여백이 남아도되니깐 배경이 잘리지않게 해줘명령*/
+    background-repeat: no-repeat; /*no-repeat 반복 금지*/
+    background-position: center; /*배경을 어느쪽부터 채울껀지*/
+    /* background-attachment: fixed; 스크롤시 배경 위치 조정가능 */
+    
+    /* 박스에 보정입히기 */
+    filter : brightness(70%) blur(50%); /*필터입히면 안에 글씨가 있다면 그것도 같이 적용되니 단독으로 사용하자*/
+}
