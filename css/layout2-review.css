@@ -66,3 +66,15 @@ body {
     fixed - 현재화면 (view port) 고정 
     2.공중에 뜸
 */
+
+.sub-background {
+    position: absolute;
+    background-color: beige;
+    border: none;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: -80px;
+    text-align: center;
+    width: 50%;
+}
