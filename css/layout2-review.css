@@ -1,4 +1,5 @@
 body {
+    /* body태그에는 기본 margin이 있음 */
     margin: 0px;
 }
 
@@ -16,6 +17,12 @@ body {
     /* 박스에 보정입히기 */
     filter : brightness(100%);/*필터입히면 안에 글씨가 있다면 그것도 같이 적용되니 단독으로 사용하자*/
     padding : 1px;
+    position: relative;
+}
+
+.main-background > p {
+    color: #ffffff;
+    text-align: center;
 }
 
 /* Margin Collapse 현상 박스가 2개가 위쪽이나 아래쪽  
@@ -28,3 +35,34 @@ body {
     margin-top: 100px;
     text-align: center;
 }
+
+/* class명 중복 피하려면 접두어를 붙여서 class 작성해라 */
+.main-btn {
+    padding: 15px;
+    background-color: rgb(22, 255, 61);
+    font-size: 15px;
+    border: none;
+    text-align: center;
+    border-radius: 50px;
+    color: #ffffff;
+    /* position relative 부여하면 1.좌표이동 가능 2.float랑 동일하게 공중에 뜸*/
+    /* position: relative; 내 원래 위치를 기준으로 이동하세요~ 임 기준점에서 */
+    position: absolute;
+    /* position: static; 얘는 좌표이동 X */
+    /* position: fixed 얘는 현재 화면(view port)이 기준  */
+    /* position: absolute; 내 부모 태그중에 position:relative를 가지고 있는 부모 기준으로 좌표이동 하고 싶을때  */
+    /* position: absolute를 가진 태그가 position:relative를 가지고 있는 부모태그를 찾음 */
+    /* position : absolute 준 요소 가운데 정렬 하려면 */
+    left : 0; 
+    right: 0;
+    margin: auto;
+    width: 100px;
+}
+
+/* position 부여하면 
+    1.좌표이동 가능 
+    relative - 내 원래 위치가 기준 
+    absolute - 부모태그가 기준 --> (relative 가진 부모)
+    fixed - 현재화면 (view port) 고정 
+    2.공중에 뜸
+*/
