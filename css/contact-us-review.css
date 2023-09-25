@@ -1,0 +1,71 @@
+body {
+    margin: 0px;
+}
+
+div, input, textarea {
+    box-sizing: border-box;
+}
+
+
+.container {
+    background-color: black;
+    padding: 30px;
+    height: 800px;
+}
+
+.sub-container {
+    padding : 30px;
+    width: 80%;
+    max-width: 600px;
+    background-color: #eee;
+    height: 80%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.email {
+    float: left;
+    
+}
+
+.name > div{
+    float:left;
+    margin-right: 50px;
+}
+
+.message {
+    clear: both;
+    float: left;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #5f5c5c;
+    height: 30px;
+}
+
+textarea {
+    width: 600px;
+    height: 150px;
+    box-sizing: border-box;
+}
+
+.sub {
+    clear: both;
+    float: left;
+}
+
+input[type=submit] {
+    background: rgb(107, 107, 29);
+    color: white;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+}

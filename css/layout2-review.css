@@ -80,3 +80,11 @@ body {
 }
 
 /* 오늘 배울 내용은 z-index  */
+
+/* input[속성명 = 속성값] */
+input[type=text] {
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid red;
+    border-radius: 5px;
+}
