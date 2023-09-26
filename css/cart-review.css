@@ -1,0 +1,16 @@
+td, th {
+    border: 1px solid black;
+}
+
+/* table은 기본적으로 틈이 존재 없애려면 border-collapse : collapse */
+table {
+    border-collapse: collapse;  
+}
+
+/* 
+    vertical-align 세로 정렬할때 씁니다만 
+    보통 사용할때는 
+    (용도1)inline/inline-block 요소간의 세로정렬 할때 vertical-align 씁니다.
+    (용도2)table 안에서 세로정렬 할 때 vertical-align 씁니다. (top/middle/bottom 가능)
+    display : inline 항상 옆으로 채워지는 폭과 너비가 없는 요소
+    */
